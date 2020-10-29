@@ -1,0 +1,132 @@
+Vocab
+Processor
+Gateway
+Acquiring Bank
+Issuing Bank
+PSP
+Payments Orchestration
+Back Office
+Shopping Cart
+ISO
+Card Brands
+ISV
+Direct Sales
+1099
+ETL
+Card Industry
+Fraud
+Device Fingerprint
+Underwriting
+Sales
+Risk
+Chargeback
+Toknenization
+Authorization
+Merchant of Record
+Payfac
+3DS
+Card Holder
+Merchant
+Payment Wallets
+Card Present
+Card Not Present
+Risk
+
+Gateways:
+Kount
+USAepay
+Authorize.net
+Stripe
+NMI
+ACI
+
+Processors:
+TSYS
+First Data
+Chase Payments
+World Pay
+
+Topics:
+
+Authorization Flow
+Merchant->Gateway->Processor(Tsys)->Issuing Bank
+
+Funding Flow (ETL)
+Processor-> Acquiring Bank-> Merchant
+
+Tokenization Flow
+Card Holder -> Token Engine -> Nexio -> Merchant
+
+Payments History:
+Visa/Master card born in 1966
+Computerized in 1973 by Visa
+It was common for a merchant to accept a charge, especially below a threshold value not verification
+Merchants would use manual imprinters known as ZipZap machines and call in approvals 
+Books with lists of stolen card numbers were distributed
+Payment processors allowed payments via Credit Card Terminals
+1996 Card payments made via http protocal like authorize.net
+
+Customer Pains:
+Processing Caps
+Fraud
+Vendor Lock in
+Bank Relationships
+Integration Complexity
+Business Units
+Business Growth
+
+Vision of Nexio:
+Simplicity
+Scalable
+Redundant
+Ownership
+
+Departments:
+Risk
+Underwriting
+Sales
+Technology
+Customer Service
+
+History of Nexio:
+Founders (Dave, Kyle Trevor)
+CMS
+Slyce
+Investment
+Nexio
+
+Technology Team:
+Product Management
+Team Lead
+Developer/Testing
+Sprints
+Milestones
+Planning
+Retrospective
+Demo
+
+Technology Principles:
+CICD
+Full Stack JavaScript
+Agile Manifesto
+Readable Code
+Best Practices
+Reusable Utility Platform 
+
+Parody Model:
+
+Stack:
+Serverless
+Lambda
+AWS
+serverless-stack.com
+
+Hype Curve:
+
+
+
+
+
+
+
+

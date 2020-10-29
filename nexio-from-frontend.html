@@ -1,0 +1,47 @@
+<html lang="en">
+<body>
+<style>
+    html {
+        font-family: "arial",serif;
+    }
+
+    #iframe {
+        height: 1500px;
+        border: 0;
+    }
+</style>
+
+<script>
+    function loadIframe(otu) {
+        let iframe = document.getElementById('iframe');
+
+        iframe.src = 'https://api.nexiopaysandbox.com/pay/v3/saveCard?token=' + otu;
+    }
+
+    function getOneTimeUseToke() {
+        fetch('http://localhost:3000/', {
+            method: 'GET'
+        }).then(function (response) {
+            console.log('------->response', response);
+            return response.json();
+        }).then((objData) => {
+            loadIframe(objData.token);
+        });
+    }
+
+    getOneTimeUseToke();
+
+    window.addEventListener('message', (message) => {
+        if (message.data.event === 'cardSaved') {
+            console.log(message.data.data.token.token);
+            alert('we saved a card!' + message.data.data.token.token);
+        }
+    });
+</script>
+
+<div>
+    <h3>Credit Card Form</h3>
+    <iframe id="iframe" class="input-cc" src=""></iframe>
+</div>
+</body>
+</html>
