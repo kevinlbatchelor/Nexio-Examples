@@ -1,7 +1,7 @@
 # Nexio-Examples
 Nexio Payment iFrame Examples
 
-#How to use Browser Based Encryption
+## How to use Browser Based Encryption
 
 The idea behind browser based encryption is to protect a credit card number by encrypting it before it leaves the user's browser.
 In the example file bbe.html you can use JSEncrypt to encrypt string value using a public key. This encrypted credit card number
