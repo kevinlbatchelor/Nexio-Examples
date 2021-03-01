@@ -1,5 +1,5 @@
 # Nexio-Examples
-Nexio Payment iFrame Examples. Requires NodJS and NPM. 
+Nexio Payment iFrame Examples. Requires NodJS and NPM. You will need a set of Basic Auth credentials and an Nexio sandbox account.
 ```npm install```
 
 ## How to use Browser Based Encryption
@@ -38,7 +38,19 @@ iframe on your shopping cart.
  
  - Create an html page that can ask for a one time use token and load a Nexio iFrame. Open nexio-form-frontend.html in a browser. It connects to
  the node server and ask for an OTU and use it to load an iFrame. <strong>Note the usages of event listener communication</strong>. The Nexio Credit card token is 
- communicated with your page via the event message. 
+ communicated with your page via the event message.
+ 
+ ## Making a payment with a credit card Token
+ 
+ Now that you have tokenized your credit card, you can process a credit card payment.  While processing a card can be done using the Process Credit Card iFrame
+ It is best to do by making a serverside POST.
+ 
+ - Open otu-basic.js,  update the authorization with your own credentials, save 
+ - Open the process-basic.js file and edit the post body. You will need the Credit Card Token produced in the "Tokenize using iFrame tutorial".
+ paste this token into process-basic.js into the tokenex.token field. SAVE
+ - Run the file
+ 
+ ```node process-basic.js```
  
  
  

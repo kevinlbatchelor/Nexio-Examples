@@ -25,6 +25,7 @@
             console.log('------->response', response);
             return response.json();
         }).then((objData) => {
+            console.log('------->objData', objData);
             loadIframe(objData.token);
         });
     }
@@ -34,7 +35,7 @@
     window.addEventListener('message', (message) => {
         if (message.data.event === 'cardSaved') {
             console.log(message.data.data.token.token);
-            alert('we saved a card!' + message.data.data.token.token);
+            alert('we saved a card! Here is your Credit Card Token: ' + message.data.data.token.token);
         }
     });
 </script>

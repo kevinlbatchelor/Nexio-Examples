@@ -1,9 +1,14 @@
 const fetch = require('node-fetch');
 
-fetch('https://api.nexiopaysandbox.com/pay/v3/token', {
+fetch('https://api.nexiopaysandbox.com/pay/v3/process', {
 	method: 'post',
 	body: JSON.stringify({
+		"tokenex": {
+			"token": "125ecc00-a616-4585-9584-f0e0d8666ea9"
+		},
 		"data": {
+			"amount":1.34,
+			"currency":"USD",
 			"customer": {
 				"firstName": "Rocky",
 				"lastName": "Squirrel",
