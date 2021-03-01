@@ -36,7 +36,7 @@ iframe on your shopping cart.
  ```node nexio-formbackend.js```
  
  - Create an html page that can ask for a one time use token and load a Nexio iFrame. Open nexio-form-frontend.html in a browser. It connects to
- the node server and ask for an OTU and use it to load an iFrame. Note the usages of event listener communication. The Nexio Credit card token is 
+ the node server and ask for an OTU and use it to load an iFrame. <strong>Note the usages of event listener communication</strong>. The Nexio Credit card token is 
  communicated with your page via the event message. 
  
  
