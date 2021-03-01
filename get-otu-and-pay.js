@@ -23,7 +23,7 @@ const port = 3000
 			body: JSON.stringify(otuRequest),
 			headers: {
 				'Content-Type': 'application/json',
-				'Authorization': 'Basic a2JhdGNoZWxvckBjbXNvbmxpbmUuY29tOkJhdHRsZSEyMw=='
+				'Authorization': 'Basic eW91clVzZXJOYW1lOnlvdXJQYXNzd29yZA=='
 			},
 		}).then((fetchResponse) => {
 			return fetchResponse.json()
@@ -34,7 +34,7 @@ const port = 3000
 	})
 
 	app.post('/pay', (req, res) => {
-		//get token from req
+		//get credit token from req
 		//call out to nexiopaysandbox
 		//use token to make payment
 	})

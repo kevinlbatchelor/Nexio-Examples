@@ -55,7 +55,7 @@ fetch('https://api.nexiopaysandbox.com/pay/v3/token', {
 	}),
 	headers: {
 		'Content-Type': 'application/json',
-		'Authorization': 'Basic a2JhdGNoZWxvckBjbXNvbmxpbmUuY29tOkJhdHRsZSEyMw=='
+		'Authorization': 'Basic eW91clVzZXJOYW1lOnlvdXJQYXNzd29yZA=='
 	},
 }).then((res) => {
 	return res.json()

@@ -23,7 +23,7 @@ function getOneTimeUseFunction() {
         body: JSON.stringify(otuRequest),
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Basic a2JhdGNoZWxvckBjbXNvbmxpbmUuY29tOkJhdHRsZSEyMw=='
+            'Authorization': 'Basic eW91clVzZXJOYW1lOnlvdXJQYXNzd29yZA=='
         }
     }).then((res) => {
         return res.json();
