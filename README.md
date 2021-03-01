@@ -1,5 +1,6 @@
 # Nexio-Examples
-Nexio Payment iFrame Examples
+Nexio Payment iFrame Examples. Requires NodJS and NPM. 
+```npm install```
 
 ## How to use Browser Based Encryption
 
