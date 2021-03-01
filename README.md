@@ -1,19 +1,19 @@
 # Nexio-Examples
 Nexio Payment iFrame Examples
 
-##How to use Browser Based Encryption
+#How to use Browser Based Encryption
 
 The idea behind browser based encryption is to protect a credit card number by encrypting it before it leaves the user's browser.
 In the example file bbe.html you can use JSEncrypt to encrypt string value using a public key. This encrypted credit card number
 Can then safely be passed to the Nexio https://api.nexiopaydev.com/pay/v3/process end point to process a credit card.
 
-##How to use a generic iFrame
+#How to use a generic iFrame
 
 An iframe is a way to include one webpage in another. Open using-iframe.html in a browser to see how the generic-ifraem.html
 is included automatically by the using-iframe.html file. Nexio credit card may be included as iFrames, and provide a simple
 way to tokenize a credit card.
 
-##Getting an OTU
+#Getting an OTU
 
 A One Time Use token is a sort of instrumentation of data, or preparatory step that is required before a tokenization iFrame can be used. It
 is also required before a payment iFrame can be used. Some data is sent to the Nexio servers, and saved for future use. The API then returns
@@ -25,7 +25,7 @@ The data sent when generating the OTU will govern the subsequent iFrame or Payme
 
 ```node otubasic.js```
 
-##Tokenizing using an Iframe
+#Tokenizing using an Iframe
 
 To tokenize using and iframe you must be able to first get a one time use token and then use that token to display an
 iframe on your shopping cart. 
