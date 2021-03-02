@@ -12,13 +12,13 @@ Can then safely be passed to the Nexio https://docs.nexiopay.com/#run-card-trans
 ## How to use a generic iFrame
 
 An iframe is a way to include one webpage in another. Open using-iframe.html in a browser to see how it includes the content from generic-iframe.html.
-Nexio provides a similar iFrames for tokenizing credit cards. We manage the iFrame, and securly save credit cards to our database and return a credit card token,
+Nexio provides a similar iFrames for tokenizing credit cards. We manage the iFrame, and securely save credit cards to our database and return a credit card token,
 That you can safely save.
 
 ## Getting an OTU
 
 A One Time Use token is a sort of instrumentation of data, or preparatory step that is required before a credit card tokenization iFrame can be used. Retrieving 
-a One Time Use Token required before a payment or tokenization iFrame can be used. Data is sent to the Nexio servers, and saved for future use. The API then returns
+a One Time Use Token required before a payment or tokenization iFrame can be used. When creating an OTU, preparatory data is sent to the Nexio servers, and saved for future use. The API then returns
 A key which is linked to that data called the "One Time Use Token". This One Time Use Token can be used to load a tokenization iFrame or Payment iFrame.
 The data sent when generating the OTU will govern the subsequent tokenization iFrame or Payment iFrame.
 
