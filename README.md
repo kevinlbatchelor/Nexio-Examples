@@ -6,12 +6,12 @@ integrations@cmsonline.com to obtain a set of credentials.
 ## How to use Browser Based Encryption
 
 The idea behind browser based encryption is to protect a credit card number by encrypting it before it leaves the user's browser.
-In the example file bbe.html you can use JSEncrypt to encrypt string value using a public key. This encrypted credit card number
+In the example file browser-based-encryption.html you can use JSEncrypt to encrypt string value using a public key. This encrypted credit card number
 Can then safely be passed to the Nexio https://docs.nexiopay.com/#run-card-transaction end point to process a credit card.
 
 ## How to use a generic iFrame
 
-An iframe is a way to include one webpage in another. Open using-iframe.html in a browser to see how it includes the content from generic-iframe.html.
+An iframe is a way to include one webpage in another. Open using-iframe.html in a browser to see how it includes the content from iframe-content.html.
 Nexio provides a similar iFrames for tokenizing credit cards. We manage the iFrame, and securely save credit cards to our database and return a credit card token,
 That you can safely save.
 
