@@ -52,3 +52,7 @@ iframe on your shopping cart.
  - Run the file
  
  ```node process-basic.js```
+ 
+ ## Useful links
+ - Documentation https://docs.nexiopay.com/#run-card-transaction
+ - Tester https://tester.nexiopay.com/
