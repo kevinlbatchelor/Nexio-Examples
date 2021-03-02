@@ -55,4 +55,4 @@ iframe on your shopping cart.
  
  ## Useful links
  - Documentation https://docs.nexiopay.com/#run-card-transaction
- - Tester https://tester.nexiopay.com/
+ - Tester https://tester.nexiopaysandbox.com/
